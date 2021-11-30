@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: black;
+    height: 90px;
+    width: 100%;
+}
+nav h1{
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;
+    line-height: 82px;
+    font-size: 2rem;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.box-1{
+    text-align: center;
+}
+.alphabet{
+    /* border: 2px solid black; */
+    width: 300px;
+    margin: 50px auto;
+    padding: 10px;
+}
+.row{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 14px;
+}
+.row-1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn{
+    width: 80px;
+    height: 80px;
+    font-size: 48px;
+    text-transform: capitalize;
+    border: 1px solid black;
+    border-radius: 7px;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.btn a{
+    text-decoration: none;
+    font-family: 'Baloo Bhai 2', cursive;
+    color: black;
+    font-weight: bold;
+}
+footer{
+    background-color: black;
+    height: 34px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+footer p{
+    text-align: center;
+    color: white;
+    line-height: 31px;
+}
